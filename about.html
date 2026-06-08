@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+
+    <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="container">
+
+        <div class="brand">Mownesh Portfolio</div>
+
+        <!-- hamburger -->
+        <div class="toggle" onclick="toggleMenu()">☰</div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </div>
+</nav>
+
+<!-- ABOUT -->
+<section class="about-section">
+
+    <div class="floating-card">
+        <h1>About Me</h1>
+
+        <p>
+            I am Mownesh, a passionate Web Developer
+            specialized in HTML, CSS, JavaScript.
+        </p>
+
+        <p>
+            I enjoy creating responsive and modern websites
+            with accessibility and user experience in mind.
+        </p>
+    </div>
+
+</section>
+
+<script>
+function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("show");
+}
+</script>
+
+</body>
+</html>
